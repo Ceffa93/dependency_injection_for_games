@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Include\Private">
+      <UniqueIdentifier>{d1a1962d-da32-43a0-9559-4703e8d44753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Public">
+      <UniqueIdentifier>{2a5e005b-72b5-4750-b767-d9e40dcde343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Public\Container">
+      <UniqueIdentifier>{e212c3a6-a318-4cf2-8e03-cdd6b92b3a63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Public\Container\Internal">
+      <UniqueIdentifier>{43fd370d-762f-4e2f-aa6e-ae4ac56695f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Private\Private">
+      <UniqueIdentifier>{3d9f8df6-b68b-40b0-87bf-3dded0e39a0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Container.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ComponentSet.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Traits.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ComponentSetImpl.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ContainerImpl.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Public\Container\ComponentSet.h">
+      <Filter>Include\Public\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Public\Container\Container.h">
+      <Filter>Include\Public\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Public\Container\Internal\Traits.h">
+      <Filter>Include\Public\Container\Internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Private\Private\ContainerImpl.h">
+      <Filter>Include\Private\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Private\Private\ComponentSetImpl.h">
+      <Filter>Include\Private\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Public\Container\Exception.h">
+      <Filter>Include\Public\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Private\Private\DataStructs.h">
+      <Filter>Include\Private\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Public\Container\Internal\Type.h">
+      <Filter>Include\Public\Container\Internal</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
